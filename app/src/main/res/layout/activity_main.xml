@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/appName"
+        android:textSize="35sp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Terrible
+Recipe Suggester"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_below="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:id="@+id/queryBox"
+        android:hint="enter ingredients , separated"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/goBtn"
+        android:layout_below="@+id/queryBox"/>
+    <TextView
+        android:layout_below="@id/goBtn"
+        android:textSize="28sp"
+        android:textColor="@color/colorAccent"
+        android:text="View Saved Recipes"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewSaved"/>
+</RelativeLayout>

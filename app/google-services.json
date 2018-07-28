@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300450283916",
+    "firebase_url": "https://terriblerecipesuggester.firebaseio.com",
+    "project_id": "terriblerecipesuggester",
+    "storage_bucket": "terriblerecipesuggester.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300450283916:android:0c08338c2b474e80",
+        "android_client_info": {
+          "package_name": "com.bumos.vgvee.terriblerecipesuggester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300450283916-pdmlr99oank22dcm9054talr84jloi9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bumos.vgvee.terriblerecipesuggester",
+            "certificate_hash": "63f39044fdf36e3fa219350780b5103d5501f417"
+          }
+        },
+        {
+          "client_id": "300450283916-q55suj4c7qi4sjru1nefulfujjgel4o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtDaljggXTNcnxYSGeVkB1RR6ur5xNEP0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300450283916-q55suj4c7qi4sjru1nefulfujjgel4o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
